@@ -13,13 +13,13 @@ This repository contains my solutions to the assignments, labs, and projects for
 
 Below is a table tracking the assignments and labs.
 
-| Module / Topic    | Assignment   | Problem Statement                                                                                                                               | My Solution                                                       |
-| :---------------- | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
-| Introduction      | Assignment 1 | [Link](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/1d420c465b4225ebe6a8ceb42815c64c_MIT6_087IAP10_assn02.pdf) | [Solution](mit_c_program/Practical Programming in C/prob_set_2.c) |
-| Control Flow      | Lab 1        | [Link](#)                                                                                                                                       | [Solution](mit_c_program/Practical Programming in C/prob_set_2.c)                                                     |
-| Pointers          | Assignment 2 | [Link](#)                                                                                                                                       | [Solution](#)                                                     |
-| Memory Management | Project 1    | [Link](#)                                                                                                                                       | [Solution](#)                                                     |
-| OOP (C++)         | Assignment 3 | [Link](#)                                                                                                                                       | [Solution](#)                                                     |
+| Module / Topic                                       | Assignment    | Problem Statement                                                                                                                               | My Solution                                         |
+| :--------------------------------------------------- | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| Types, operators, expressions                        | Problem Set 2 | [Link](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/1d420c465b4225ebe6a8ceb42815c64c_MIT6_087IAP10_assn02.pdf) | [Solution](Practical_Programming_in_C/prob_set_2.c) |
+| Core C concepts: flow, functions, scope, I/O, memory | Problem Set 3 | [Link](https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/e69d005d49d18bbe6498104ebef9923c_MIT6_087IAP10_assn03.pdf) | [Solution](#)                                       |
+| Pointers                                             | Assignment 2  | [Link](#)                                                                                                                                       | [Solution](#)                                       |
+| Memory Management                                    | Project 1     | [Link](#)                                                                                                                                       | [Solution](#)                                       |
+| OOP (C++)                                            | Assignment 3  | [Link](#)                                                                                                                                       | [Solution](#)                                       |
 
 ### Note: Links will be updated as I complete the modules
 
