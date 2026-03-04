@@ -1,11 +1,16 @@
 /***
  * @file prob_set_3.c
+ * @brief Solution for Problem 3.1: Fibonacci sequence and register variables.
+ *
+ * This file implements a performance test to compare the execution time of
+ * calculating the Fibonacci sequence using standard variables versus variables
+ * declared with the 'register' keyword. It includes a profiler to measure
+ * CPU time.
  */
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-#include <bool.h>
 
 #define NMAX 25
 static unsigned int results_buffer[NMAX];
@@ -46,12 +51,8 @@ void fibonacci_register()
 	register unsigned int a = 0;
 	register unsigned int b = 1;
 	register unsigned int c;
-	if ()
-	{
-		register int n;
-	}
-	else
-		unsigned { int n; }
+	int n;
+	// register int n;
 
 	results_buffer[0] = a;
 	results_buffer[1] = b;
@@ -97,9 +98,12 @@ int func_profiler(void (*fibonacci_func)(void))
 }
 
 /***
- * My observations for Problem Set 3:
- * 1. Without using the 'register' keyword, the average execution time for the standard Fibonacci function was approximately 0.0001 milliseconds.
- * 2. When using the 'register' keyword for the Fibonacci function, the average execution time was slightly reduced to around 0.00008 milliseconds.
+ * My observations for Problem Set 3.1:
+ * 1. Without using the 'register' keyword, the average execution time for the standard Fibonacci function was approximately 6.43 milliseconds.
+ * 2. When using the 'register' keyword for the Fibonacci function, the average execution time was sometimes slightly reduced to around 6.3 milliseconds. 
+ * And sometimes it was slightly increased to around 6.5 -6.8 milliseconds. 
+ * The results were inconsistent across multiple runs, indicating that the 'register' keyword does not guarantee a performance improvement 
+ * and may depend on the compiler's optimization decisions and the specific architecture of the CPU.
  */
 
 int main(void)
