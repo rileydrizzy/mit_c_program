@@ -5,6 +5,7 @@
  * allows the user to input a word, and checks if the word exists in the dictionary.
  * The program includes error handling for file operations and ensures clean user input.
  *
+ * Compile with: clang prob_set_3.2.c dict.c -O0 -o dict_lookup
  */
 
 #include <stdio.h>
