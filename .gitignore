@@ -55,7 +55,7 @@ dkms.conf
 *.dwo
 
 # misc
-
 demo.c
 demo.txt
 demo
+.vscode/
